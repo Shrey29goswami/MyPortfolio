@@ -8,13 +8,13 @@ const Skills: React.FC = () => {
       title: "Frontend Development",
       icon: <Globe className="w-8 h-8" />,
       skills: [
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 },
-        { name: "React", level: 88 },
-        { name: "Next.js", level: 85 },
-        { name: "TypeScript", level: 82 },
-        { name: "Tailwind CSS", level: 90 }
+        { name: "HTML", level: 75 },
+        { name: "CSS", level: 70 },
+        { name: "JavaScript", level: 72 },
+        { name: "React", level: 60 },
+        { name: "Next.js", level: 61 },
+        { name: "TypeScript", level: 56 },
+        { name: "Tailwind CSS", level: 55 }
       ],
       color: "from-neon-blue to-neon-purple"
     },
@@ -22,11 +22,9 @@ const Skills: React.FC = () => {
       title: "Backend Development",
       icon: <Server className="w-8 h-8" />,
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Express.js", level: 85 },
+        { name: "Node.js", level: 60 },
         { name: "Spring Boot", level: 75 },
-        { name: "RESTful APIs", level: 90 },
-        { name: "Microservices", level: 70 }
+        { name: "RESTful APIs", level: 60 },      
       ],
       color: "from-neon-green to-neon-blue"
     },
@@ -34,12 +32,11 @@ const Skills: React.FC = () => {
       title: "Programming Languages",
       icon: <Code className="w-8 h-8" />,
       skills: [
-        { name: "C", level: 90 },
-        { name: "C++", level: 95 },
-        { name: "Java", level: 85 },
-        { name: "JavaScript", level: 92 },
-        { name: "TypeScript", level: 82 },
-        { name: "Python", level: 78 }
+        { name: "C", level: 60 },
+        { name: "C++", level: 90 },
+        { name: "Java", level: 75 },
+        { name: "JavaScript", level: 60 },
+        { name: "TypeScript", level: 60 },
       ],
       color: "from-neon-purple to-neon-pink"
     },
@@ -47,11 +44,9 @@ const Skills: React.FC = () => {
       title: "Databases",
       icon: <Database className="w-8 h-8" />,
       skills: [
-        { name: "MongoDB", level: 88 },
+        { name: "MongoDB", level: 60 },
         { name: "MySQL", level: 85 },
         { name: "SQL", level: 90 },
-        { name: "Database Design", level: 82 },
-        { name: "Query Optimization", level: 75 }
       ],
       color: "from-neon-pink to-neon-green"
     },
@@ -60,11 +55,9 @@ const Skills: React.FC = () => {
       icon: <Wrench className="w-8 h-8" />,
       skills: [
         { name: "Git", level: 90 },
-        { name: "IntelliJ IDEA", level: 88 },
-        { name: "Eclipse", level: 85 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 85 },
-        { name: "Docker", level: 70 }
+        { name: "IntelliJ IDEA", level: 68 },
+        { name: "Eclipse", level: 65 },
+        { name: "VS Code", level: 75 },
       ],
       color: "from-neon-green to-neon-blue"
     },
@@ -76,7 +69,7 @@ const Skills: React.FC = () => {
         { name: "Operating Systems", level: 82 },
         { name: "OOPs", level: 92 },
         { name: "System Design (LLD)", level: 85 },
-        { name: "AI/ML", level: 78 },
+        { name: "AI/ML", level: 68 },
         { name: "DSA", level: 95 }
       ],
       color: "from-neon-blue to-neon-purple"
