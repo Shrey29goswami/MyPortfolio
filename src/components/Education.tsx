@@ -10,27 +10,26 @@ const Education: React.FC = () => {
       duration: "2022 - 2026",
       grade: "CGPA: 7.97",
       description: "Comprehensive computer science curriculum covering software engineering, algorithms, system design, and emerging technologies.",
-      highlights: ["Data Structures & Algorithms", "Software Engineering", "Database Management", "System Design"],
+      highlights: ["Data Structures & Algorithms", "Software Engineering", "Database Management", "System Design",
+                  "Operating System", "OOPs"],
       color: "from-neon-blue to-neon-purple",
       status: "Current"
     },
     {
       degree: "XII - Senior Secondary",
       institution: "D.A.V Public School, Jharkhand",
-      duration: "2020 - 2022",
       grade: "82%",
       description: "Strong foundation in mathematics, physics, and computer science with focus on analytical thinking and problem-solving.",
-      highlights: ["Mathematics", "Physics", "Computer Science", "English"],
+      highlights: ["Physics", "Chemistry", "Mathematics","Computer Science", "English"],
       color: "from-neon-green to-neon-blue",
       status: "Completed"
     },
     {
       degree: "X - Secondary",
       institution: "D.A.V Public School, Jharkhand",
-      duration: "2018 - 2020",
-      grade: "Distinction",
+      grade: "79%",
       description: "Solid academic foundation with excellent performance across all subjects and active participation in co-curricular activities.",
-      highlights: ["All Subjects", "Co-curricular Activities", "Leadership Skills", "Academic Excellence"],
+      highlights: ["All Subjects", "Co-curricular Activities", "Leadership Skills"],
       color: "from-neon-purple to-neon-pink",
       status: "Completed"
     }
